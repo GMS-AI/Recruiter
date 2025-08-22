@@ -629,7 +629,7 @@ async def generate_questions(
             detail=f"Question generation failed: {str(e)}"
         )
 
-@app.post("/generate_mcqs/")
+@app.post("/generate_mcqs")
 async def generate_mcqs(
     jd: JobDescription,
     req: Request
