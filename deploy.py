@@ -672,7 +672,7 @@ async def generate_mcqs(
             detail=f"MCQ generation failed: {str(e)}"
         )
 
-@app.post("/predict_salary/")
+@app.post("/predict_salary")
 async def predict_salary(
     data: JobInput,
     req: Request
