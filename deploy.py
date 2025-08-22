@@ -234,7 +234,7 @@ app = FastAPI(
     description="High-performance parallel processing HR and recruitment tools with AI analysis",
     version="2.1.0",
     lifespan=lifespan,
-    root_path="/recruiter"
+    root_path="/recruiter",
     docs_url="/docs",
     redoc_url="/redoc"
 )
